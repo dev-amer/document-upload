@@ -1,7 +1,29 @@
 {
+  "name": "langchain-document-loader",
+  "version": "1.0.0",
+  "description": "Talk to Your Files: Conversational AI for Any Folder of Documents with Langchain in Node.js\r",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^1.4.0",
+    "@dqbd/tiktoken": "^1.0.7",
+    "@fortaine/fetch-event-source": "^3.0.6",
+    "d3-dsv": "^2.0.0",
     "dotenv": "^16.3.1",
-    "express": "^4.18.2"
-  }
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.67"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-amer/document-upload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dev-amer/document-upload/issues"
+  },
+  "homepage": "https://github.com/dev-amer/document-upload#readme"
 }
